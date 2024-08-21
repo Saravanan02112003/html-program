@@ -1,0 +1,14 @@
+body{
+    color: skyblue;
+    background-image: url(download.jpeg);
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(61, 41, 4);
+}
+p{
+    color: black;
+    font-size: 17px;
+}
