@@ -1,0 +1,46 @@
+body{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.image{
+    width: 1050px;
+    height: 450px;
+    display: flex;
+    
+
+}
+h2{
+    text-align: center;
+}
+p{
+    color: rgb(10, 16, 19);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.one{
+    margin-left: 0;
+    box-shadow:5px 2px 8px rgb(17, 17, 16);
+    border-radius: 5px;
+
+}
+.two{
+     margin-left: 5%;
+     box-shadow: 5px 2px 8px rgb(17, 17, 16);
+     border-radius: 5px;
+}
+.three{
+    margin-left: 5%;
+    box-shadow: 5px 2px 8px rgb(17, 17, 16);
+    border-radius: 5px;
+
+}
+img{
+    width: 350px;
+    height: 200px;
+    display: flex;   
+}
