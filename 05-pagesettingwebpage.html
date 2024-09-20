@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UR-compatible content" ie="chrome">
+    <title>page setting of web page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+        }
+        body{
+            border: 2px solid purple;
+        }
+        .selction{
+            height: 100vh;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+
+        }
+        .one{
+            background-color: chocolate;
+            color: black;
+        }
+        .two{
+            background-color: plum;
+            color: tomato;
+
+        }
+        .three{
+            background-image: url(Task/img.webp);
+            color: cyan;
+        }
+        h1{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="selction one">
+            <h1>Marketing</h1>
+        </section>
+        <section class="selction two">
+            <h1>Technology</h1>
+        </section>
+        <section class="selction three">
+            <h1>Adverstivment</h1>
+        </section>
+
+    </div>
+</body>
+</html>
